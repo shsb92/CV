@@ -11,7 +11,7 @@ export const SkillItem = (item) => {
     });
     const ItemProgress = CreateCustomElement("div", {
         class: "skill-progress",
-        style: `width: ${item.level * 10}%;`
+        style: `width: calc(${item.level * 10}% - 1rem);`
     }); 
     const ItemTitle = CreateCustomElement("p", {
         class: "skill-title",
@@ -23,4 +23,4 @@ export const SkillItem = (item) => {
     ItemBackgroundBox.append(ItemProgress);
 
     return ItemContainer;
-}
+} 

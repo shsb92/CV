@@ -1,39 +1,39 @@
 export const PersonalInforamtionItems = [
-    {
-        type: "title",
-        text: "Sascha Seibel",
-        icon: ""
-    },
-    {
-        type: "sub_title",
-        text: "Web Engineer and Developer",
-        icon: ""
-    },
-    {
-        type: "info",
-        text: "Sascha.Seibel@outlook.de",
-        icon: "/assets/icons/mail.svg"
-    },
-    {
-        type: "info",
-        text: "+82 010 4070 5978",
-        icon: "/assets/icons/telephone.svg"
-    },
-    {
-        type: "info",
-        text: "Geumcheon / Seoul / South Korea",
-        icon: "/assets/icons/home.svg"
-    },
-    {
-        type: "social",
-        text: "https://www.linkedin.com/in/sascha-seibel-282583217",
-        icon: "/assets/logos/linkedIn",
-    },
-    {
-        type: "social",
-        text: "https://github.com/shsb92",
-        icon: "/assets/logos/github",
-    },
+    // {
+    //     type: "title",
+    //     text: "Sascha Seibel",
+    //     icon: ""
+    // },
+    // {
+    //     type: "sub_title",
+    //     text: "Web Engineer and Developer",
+    //     icon: ""
+    // },
+    // {
+    //     type: "info",
+    //     text: "Sascha.Seibel@outlook.de",
+    //     icon: "/assets/icons/mail.svg"
+    // },
+    // {
+    //     type: "info",
+    //     text: "+82 010 4070 5978",
+    //     icon: "/assets/icons/telephone.svg"
+    // },
+    // {
+    //     type: "info",
+    //     text: "Geumcheon / Seoul / South Korea",
+    //     icon: "/assets/icons/home.svg"
+    // },
+    // {
+    //     type: "social",
+    //     text: "https://www.linkedin.com/in/sascha-seibel-282583217",
+    //     icon: "/assets/logos/linkedIn.svg",
+    // },
+    // {
+    //     type: "social",
+    //     text: "https://github.com/shsb92",
+    //     icon: "/assets/logos/github.svg",
+    // },
 ];
 
 export const IntroductionText = "This will be the introduction";
@@ -77,7 +77,7 @@ export const SkillList = [
         title: "C#"
     },
     {
-        level: 9,
+        level:9,
         title: "SCRUM"
     }
 ]
