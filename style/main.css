@@ -9,29 +9,94 @@ body {
     max-height: 100vh;
 }
 
+/* Title */
 .title-section {
     background: rosybrown;
     padding: 2rem;
 }
 
+.title {
+    font-size: 2rem;
+}
+
+.sub-title{
+    font-size: 1.5rem;
+}
+
+/* Content */
 .content-section {
+    padding: 2rem;
     display: flex;
-    width: 100%;
+    width: calc(100% - 4rem);
     height: 100vh;
 }
 
 .main-content {
     flex-grow: 1;
-    max-width: 80%;
+    padding-right: 1rem;
+    max-width: 75%;
     height: 100%;
 }
 
-.side-content {
+.side-information {
+    border-left: 1px solid lightgray;
+    padding-left: 1rem;
     flex-grow: 1;
-    max-width: 20%;
+    max-width: 25%;
     height: 100%;
 }
 
-/* .title {
-    font-family: 'Courier New', Courier, monospace;
-} */
+/* TODO add classes for introduction and job elements */
+
+/* Personal Information */
+.personal-information {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 5rem;
+}
+
+.info-item {
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.info-icon {
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.info-text {
+    padding-left: 0.5rem;
+}
+
+/* Skills */
+.skills {
+    border: 1px solid lightgray
+}
+
+.skills-title {
+    color: lightblue
+}
+
+.skill-item {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.skill-box {
+    width: 100%;
+    background: lightgray; 
+    height: 1rem;
+}
+
+.skill-progress {
+    background: black; 
+    height: 100%;
+}
+
+.skill-title {
+    margin-top: 0.2rem;
+}
+
+/* Education */
+/* TODO */

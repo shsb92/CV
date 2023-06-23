@@ -1,6 +1,6 @@
 import CreateCustomElement from "../../helper/CustomComponent.js";
 
-export function CreateJobElement (job) {
+export const CreateJobElement = (job) => {
     const JobElement = CreateCustomElement("div", {
 
     });
@@ -15,14 +15,14 @@ export function CreateJobElement (job) {
     })
     const TaskList = CreateCustomElement("ul", {});
     
-    for (let i = 0; i < job.tasks.length; i++) {
-        let task = job.tasks[i];
+
+    job.tasks.forEach((task) => {
         const TaskItem = CreateCustomElement("li", {
             innerHTML: task,
         });
-
         TaskList.append(TaskItem);
-    }
+    });
+    
     JobElement.append(JobTitle, JobSubTitle, JobDesription, TaskList);
     return JobElement;
 }
