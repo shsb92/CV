@@ -9,6 +9,6 @@ export const SideInformation = CreateCustomElement("div", {
 });
 
 SideInformation.append(PersonalInformation);
-SideInformation.append(Socials);
 SideInformation.append(Skills);
 SideInformation.append(Education);
+SideInformation.append(Socials);

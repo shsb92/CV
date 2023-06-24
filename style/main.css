@@ -3,7 +3,7 @@
     body { 
         margin: 1.6cm; 
     }
-    .job-element, .education-item, .skill-item {
+    .job-element, .education-item, .skill-item, .socials {
         page-break-inside: avoid;
     }
     
@@ -167,6 +167,11 @@ a {
 /* Socials */
 .socials {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.socials-title{
+    width: 100%;
 }
 
 .social-item {
@@ -180,6 +185,7 @@ a {
 }
 
 .skills-title {
+    margin-top: 1rem;
     margin-bottom: 0.4rem;
 }
 
@@ -223,15 +229,22 @@ a {
 
 /* Education */
 .education {
+    display: flex;
+    flex-direction: column;
     flex-shrink: 1;
 }
 
+.educations-title {
+    margin-bottom: 0.2rem;
+} 
+
 .education-item {
     font-size: 1rem;
+    margin-bottom: 1rem;
 }
 
 .education-title {
-    margin: 1.5rem 0 0.5rem 0 ;
+    margin: 0.5rem 0 0.5rem 0 ;
     font-size: 1rem;
 }
 

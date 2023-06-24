@@ -9,7 +9,7 @@ export const SocialItem = (item) => {
     const Icon = CreateCustomElement("img", {
         class: "social-icon",
         src: item.icon,
-        height: "40"
+        height: "30"
     });
 
     ItemWrapper.append(Icon);
