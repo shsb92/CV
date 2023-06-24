@@ -7,7 +7,7 @@ export const Skills = CreateCustomElement("div", {
 });
 
 const Title = CreateCustomElement("h5", {
-    class: "skills-title",
+    class: "skills-title section-headline",
     innerHTML: "Skills",
 });
 

@@ -1,6 +1,12 @@
 @media print {
     @page { margin: 0; }
-    body { margin: 1.6cm; }
+    body { 
+        margin: 1.6cm; 
+    }
+    .job-element, .education-item, .skill-item {
+        page-break-inside: avoid;
+    }
+    
 }
 
 body {
@@ -10,19 +16,47 @@ body {
     background-color: #EEEEEE;
 }
 
+a {
+    color: #334257
+}
+
 .app {
     height: 100%;
 }
 
+/* General Classes */
+.section-headline{
+    letter-spacing: 0.3rem;
+    font-size: 1.2rem;
+}
+
 /* Title */
 .title-section {
+    display: flex;
     background: #FFFFFF;
     color: #494041;
     padding: 2rem;
 }
 
+.title-portrait {
+    float: right;
+    flex: auto;
+    border-radius: 50%;
+    max-width: 10rem;
+    height: 10rem;
+    background-position: center;
+    background:  no-repeat;
+    background-size: 100%;
+}
+
+.title-textbox{
+    flex: auto;
+    text-align: bottom;
+}
+
 .title {
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-bottom: 0;
     font-family: 'Rockwell';
 }
 
@@ -53,14 +87,26 @@ body {
     max-width: 25%;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 100%;
 }
 
-/* TODO add classes for introduction */
+/* introduction */
+.introduction-headline {
+    margin-top: 0;
+}
+.introduction {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 0.5rem;
+}
+
 
 /* Experience */
+.experience-title {
+    margin-bottom: -1rem;     
+}
+
 .job-element {
-    margin-bottom: 3.5rem;
+    padding-top: 2rem;
 }
 
 .job-title {
@@ -89,6 +135,7 @@ body {
 
 /* Personal Information */
 .personal-information {
+    padding-top: 2.5rem;
     flex-shrink: 1;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid lightgray;
@@ -109,6 +156,14 @@ body {
     padding-left: 0.5rem;
 }
 
+.mail-link {
+    text-decoration: none;
+
+}
+.mail-link:hover {
+    background-color: black;
+}
+
 /* Socials */
 .socials {
     display: flex;
@@ -125,11 +180,11 @@ body {
 }
 
 .skills-title {
-    color: lightblue
+    margin-bottom: 0.4rem;
 }
 
 .skill-item {
-    padding: 0.5rem;
+    padding: 0.1rem 0.5rem;
     text-align: center;
 }
 
@@ -163,6 +218,7 @@ body {
 
 .skill-title {
     margin-top: 0.2rem;
+    margin-bottom: 0.4rem;
 }
 
 /* Education */
@@ -175,13 +231,16 @@ body {
 }
 
 .education-title {
+    margin: 1.5rem 0 0.5rem 0 ;
     font-size: 1rem;
 }
 
 .education-univ {
+    margin: 0 0 0.5rem 0 ;  
     font-size: 0.7rem;
 }
 
 .education-duration {
+    margin: 0;
     font-size: 0.6rem;
 }

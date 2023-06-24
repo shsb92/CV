@@ -7,8 +7,13 @@ export const MainContent = CreateCustomElement("div", {
     class: "main-content",
 })
 
-MainContent.append(Introduction);
+MainContent.append(Introduction());
 
+const experienceTitle = CreateCustomElement("h3", {
+    innerHTML: "Experience",
+    class: "experience-title section-headline",
+})
+MainContent.append(experienceTitle);
 Jobs.forEach((job) => {
     MainContent.append(CreateJobElement(job));
 })
