@@ -2,7 +2,7 @@ import CreateCustomElement from "../../helper/CustomComponent.js";
 
 export const SocialItem = (item) => {
     const ItemWrapper = CreateCustomElement("a", {
-        class: "social-item",
+    class: "social-item",
         target: "_blank",
         href: item.text
     });
