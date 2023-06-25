@@ -42,18 +42,18 @@ rapid prototyping, web and mobile application engineering, and development.
 
 During my time as a research assistant at Justus Liebig University, 
 I successfully designed and developed the frontend for an integration platform aimed 
-at managing researchers' data. This experience allowed me to showcase my expertise in 
+at managing researchers' data. This experience allowed me to improve my expertise in 
 building robust web software solutions.
 
 Currently, as part of the development team at INFINITT Healthcare ltd., 
 I am actively involved in the development of the DoseM product. 
 This role has provided me with valuable opportunities to enhance my skills in JavaScript, 
-React, and C#. Working within a dynamic and agile environment, 
-The nature of DoseM as a registered medical product in Germany necessitated a strong focus on 
-stability and responsiveness to customer feedback. This gave the opportunity to further developed 
-my flexibility in adapting to different software development environments.
+React, and C#. Due to the nature of DoseM as a registered medical product in Germany, it 
+necessitated a strong focus on stability and responsiveness to customer feedback. 
+This gave the opportunity to further developed my flexibility in 
+adapting to different software development environments.
 
-With a desire to build a solid foundation for my future in Korea, I am looking opportunities 
+With a desire to build a solid foundation for my future in Korea, I am looking for opportunities 
 to enhance my professional environment.
 
 Driven by a passion for software development I am continuously looking to improve 
@@ -65,7 +65,7 @@ make me a valuable asset in professional settings.`;
 export const Jobs = [ 
     {
         title: "Web Developer",
-        sub_title: "INFINITT Healthcare Ltd - Seoul South, Korea",
+        sub_title: "INFINITT Healthcare Ltd - Seoul, South Korea",
         description: `
         During my time with the Dose팀 at INFINITT Healthcare, I played a crucial role in the 
         development of new features, refactoring existing components, and resolving bugs in both 
