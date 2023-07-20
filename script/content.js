@@ -53,7 +53,7 @@ export const Jobs = [
         `,
         tasks: [
             "<b>JavaScript</b> Development",
-            "<b>C#</b> Developmetn",
+            "<b>C#</b> Development",
             "<b>React</b> Development",
             "<b>Vue.JS</b> Development",
             "Adaptability To <b>Flexible And Fast-Paced Environment</b>"
@@ -71,6 +71,7 @@ export const Jobs = [
             "<b>Server Adminstration</b>",
             "<b>JavaScript</b> Development",
             "<b>Vue.JS</b> Development",
+            "<b>C#</b> Development",
         ]
     },
     {
