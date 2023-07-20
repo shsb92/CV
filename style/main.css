@@ -35,15 +35,15 @@ a {
     display: flex;
     background: #FFFFFF;
     color: #494041;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .title-portrait {
     float: right;
     flex: auto;
     border-radius: 50%;
-    max-width: 10rem;
-    height: 10rem;
+    max-width: 7rem;
+    height: 7rem;
     background-position: center;
     background:  no-repeat;
     background-size: 100%;
@@ -55,7 +55,7 @@ a {
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 0;
     font-family: 'Rockwell';
 }
@@ -68,7 +68,7 @@ a {
 /* Content */
 .content-section {
     color: #334257 !important;
-    padding: 2rem;
+    padding: 1.5rem;
     display: flex;
     width: calc(100% - 4rem);
 }
@@ -93,20 +93,25 @@ a {
 /* introduction */
 .introduction-headline {
     margin-top: 0;
+    margin-bottom: 0.5rem;
 }
 .introduction {
     border-bottom: 1px solid lightgray;
     padding-bottom: 0.5rem;
 }
+.introduction-text {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
 
 
 /* Experience */
 .experience-title {
-    margin-bottom: -1rem;     
+    margin-bottom: 0rem;     
 }
 
 .job-element {
-    padding-top: 2rem;
+    padding-bottom: 0.2rem;
 }
 
 .job-title {
