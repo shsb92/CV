@@ -37,10 +37,10 @@ export const PersonalInforamtionItems = [
 ];
 
 export const IntroductionText = `
-Working as a frontend engineer, I gained experience in web and mobile application development and rapid prototyping. 
-Currently, I'm actively involved in developing the DoseM product at INFINITT Healthcare, enhancing my skills in JavaScript, React, Vue.JS and C#. 
-I am adaptable and passionate about user-focused software development. 
-Seeking opportunities to build a solid foundation for my future in Korea.`;
+<b>Skills:</b> Front- And Backend Development, Rapid Prototyping, Dynamic Software Development, Software Engineering, Server Administration
+</br>
+<b>Languages:</b> German (Mothertoung), English (Native-Level), Korean (Beginner-Level)
+`;
 
 
 export const Jobs = [ 
@@ -48,45 +48,61 @@ export const Jobs = [
         title: "Web Developer",
         sub_title: "INFINITT Healthcare Ltd - Seoul, South Korea",
         description: `
-        At INFINITT Healthcare, I am part of DoseM's development. This includes new features, refactoring, and bug fixing in both front-end and back-end. 
-        Here I was ableto improve my teamwork and adaptability in fast-paced environments, addressing customer requests promptly.
+        <b>Responsibilities:</b> 
+        In Context Of DoseM Product: Improving Exisiting features, Developing New Features, Fixing Bugs
+        <br>
+        <b>Valuable Soft Skills:</b> 
+        Teamwork, Adaptability To Fast-Paced Environments, Fast and Precise Adaptation To Customer Requests
+        <br>
+        <b>Improved Skills:</b>
         `,
         tasks: [
             "<b>JavaScript</b> Development",
             "<b>C#</b> Development",
             "<b>React</b> Development",
             "<b>Vue.JS</b> Development",
-            "Adaptability To <b>Flexible And Fast-Paced Environment</b>"
+            "<b>ORACLE SQL</b>",
+            "Adaptability And Flexiblity In Software Development"
         ]
     },
     {
         title: "IT-Engineer ",
         sub_title: "INFINITT Healthcare GmbH - Frankfurt, Germany",
         description: `
-        Due to visa acquisition delays for my work at INFINTT Korea, I contributed at Infinitt Europe, 
-        focusing on server administration and enhancing my Vue and C# expertise. 
-        This experience expanded my skill set and enabled effective project contributions.
+        <b>Responsibilities:</b> 
+        Development Of Frontend Application, Server Administration
+        </br>
+        <b>Valuable Soft Skills:</b> 
+        Project Management, User Communication
+        </br>
+        <b>Improved Skils:</b> 
         `,
         tasks: [
             "<b>Server Adminstration</b>",
             "<b>JavaScript</b> Development",
             "<b>Vue.JS</b> Development",
             "<b>C#</b> Development",
+            "<b>Web</b> Design",
         ]
     },
     {
         title: "Scientific Researcher ",
         sub_title: "Justus Liebig University - Gießen, Germany",
         description: `
-        At the Data Integration Center - Giessen, I played a major role in developing the frontend of a Research Data Management platform and implemented a robust solution for 
-        pseudonymizing and anonymizing patient data through a trust office. 
-        Additionally, I co-developed the DIC's official website using the Vue framework. 
+        <b>Responsibilities:</b> 
+        Development Of Multiple Frontend Applications, Development And Design Of Website, Support Of Backend Development
+        </br>
+        <b>Valuable Soft Skills:</b> 
+        Leadership (Handling Development Interns), Teamwork, Customer/User Communication
+        </br>
+        <b>Improved Skils:</b> 
         `,
         tasks: [
             "<b>Javascript</b> Development",
             "<b>Vue.JS</b> Development",
+            "<b>Web</b> Design",
             "<b>PHP - LARAVEL</b> Development",
-            "<b><a href='https://diz.med.uni-giessen.de/' target='_blank'>DIC - Website</a></b>",
+            "<b>PostgreSQL</b>",
         ]
     },
 ]
@@ -107,10 +123,6 @@ export const SkillList = [
     {
         level: 6,
         title: "C#"
-    },    
-    {
-        level: 9.3,
-        title: "SCRUM"
     },
 ]
 

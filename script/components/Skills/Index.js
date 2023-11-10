@@ -8,7 +8,7 @@ export const Skills = CreateCustomElement("div", {
 
 const Title = CreateCustomElement("h5", {
     class: "skills-title section-headline",
-    innerHTML: "Skills",
+    innerHTML: "Development",
 });
 
 Skills.append(Title);

@@ -11,8 +11,11 @@ export const SkillItem = (item) => {
     });
     const ItemProgress = CreateCustomElement("div", {
         class: "skill-progress",
-        style: `width: calc(${item.level * 10}% - 1rem);`
+        style: `width: calc(${item.level * 10}% - 5px);`
     }); 
+    const ItemProgressArrow = CreateCustomElement("div", {
+        class: "skill-progress-arrow",
+    })
     const ItemTitle = CreateCustomElement("p", {
         class: "skill-title",
         innerHTML: item.title,
@@ -21,6 +24,7 @@ export const SkillItem = (item) => {
     ItemContainer.append(ItemBackgroundBox);
     ItemContainer.append(ItemTitle);
     ItemBackgroundBox.append(ItemProgress);
+ItemProgress.append(ItemProgressArrow);
 
     return ItemContainer;
 } 
