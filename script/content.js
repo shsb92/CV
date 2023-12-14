@@ -21,7 +21,7 @@ export const PersonalInforamtionItems = [
     },
     {
         type: "info",
-        text: "Geumcheon-Gu / Seoul / South Korea",
+        text: "Seodaemun-Gu / Seoul / South Korea",
         icon: "/assets/icons/home.svg"
     },
     {
@@ -59,7 +59,7 @@ export const Jobs = [
         tasks: [
             "<b>JavaScript</b> Development",
             "<b>C#</b> Development",
-            "<b>React</b> Development",
+            "<b>React (TypeScript)</b> Development",
             "<b>Vue.JS</b> Development",
             "<b>ORACLE SQL</b>",
             "Adaptability And Flexiblity In Software Development"
@@ -109,26 +109,34 @@ export const Jobs = [
 
 export const SkillList = [
     {
-        level: 8.5,
+        level: 9.5,
+        title: "Javascript"
+    },
+    {
+        level: 9,
         title: "VUE.js"
     },
     {
-        level: 7.5,
+        level: 8,
         title: "REACT"
+    },
+    {
+        level: 8,
+        title: "Typescript"
     },    
+    {
+        level: 7.5,
+        title: "C#"
+    },
     {
         level: 6,
         title: "LARAVEL"
-    },    
-    {
-        level: 6,
-        title: "C#"
-    },
+    },       
 ]
 
 export const EducationList = [
     {
-        title: "M. Sc. Digital Medicine - Medical Data Science",
+        title: "M. Sc. Digital Medicine - Medical Data Science (Grade: 92%)",
         university: "Technische Hochschule Mittlehessen - University of applied sciences",
         duration: "2019 ~ 2021",
     },
