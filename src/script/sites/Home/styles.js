@@ -19,7 +19,6 @@ export const LinkStyles = {
     borderRadius: '0.4rem',
     fontWeight: '600',
     letterSpacing: '0.1em',
-    boxShadow: 'rgb(42, 56, 74) 2.8px 4.2px 7.2px'
 }
 
 
@@ -28,7 +27,9 @@ export const TitleContainerStyles = {
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    minWidth: '100%',
+    minWidth: '70%',
+    backgroundColor: 'rgba(255, 255, 2555, 0.1)',
+    borderRadius: '0.5em',
 }
 
 export const NavContainerStyles = {
