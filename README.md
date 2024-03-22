@@ -1,4 +1,4 @@
-# CV
+# Resumazing
 Project to build a CV by sloely entering Data into a JavaScript file.
 Still in development currently only able of displaying views
 
