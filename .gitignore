@@ -1,1 +1,2 @@
-/script/content.*
+/src/script/content.*
+/node_modules
