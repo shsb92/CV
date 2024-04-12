@@ -6,8 +6,7 @@ export const homeLinkStyles = {
     paddingBottom: '1.5rem',
     letterSpacing: '-0.1em',
     backgroundImage: 'url("../src/assets/logos/resumize.svg")',
-    backgroundSize: 'auto',
+    backgroundSize: '40%',
     backgroundRepeat: 'no-repeat',
-    // backgroundColor: 'rgb(255, 201, 98)',
     backgroundPosition: '1rem center',
 };

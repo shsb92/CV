@@ -265,9 +265,14 @@ a {
 `
 
 export const FirstContainerStyles = {
+    fontSize: 'calc(100vh / 400)',
+    aspectRatio: '210 / 297',
+    maxHeight: '100%',
+    width: 'auto',
+    overflow: 'hidden',
     margin: 'auto',
-    width: '210mm',
-    height: '297mm',
+    // width: '210mm',
+    // height: '297mm',
     backgroundColor: '#EEEEEE',
     boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px',
 }

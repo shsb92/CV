@@ -16,6 +16,7 @@ const Layout = () => {
     const contentContainer = document.createElement('div');
     contentContainer.id = 'content';
     contentContainer.style.width = '100%';
+    contentContainer.style.height = 'calc(100% - 3rem)';
     contentContainer.style.flex = '1';
     layoutContainer.appendChild(contentContainer);
 

@@ -1,9 +1,11 @@
 /**
  * Create Text element by type
  * @param {'p' | 'b' | 'h1' | 'h2'| 'h3'| 'h4'| 'h5'} type 
+ * @param {string} id 
+ * @param {string} text 
  * @returns 
  */
-export const Typography = (type, id, text) => {
+const Typography = (type, id, text) => {
     function constructor () {
         const element = document.createElement(type);
         element.id = id;
@@ -17,3 +19,4 @@ export const Typography = (type, id, text) => {
 
     return constructor();
 }
+export default Typography;

@@ -1,5 +1,7 @@
 import {BuilderButtonStyles, HomeStyles, NavContainerStyles, } from "./styles.js";
 import PageLink from "./../../components/Atoms/PageLink/index.js";
+import Divider from "../../components/Atoms/Divider/index.js";
+import Typography from "../../components/Atoms/Typography/index.js";
 
 /**
  * Home View file
@@ -35,15 +37,27 @@ const Home = () => {
      */
     function templateSection() {
         const templateContainer = document.createElement('div');
+        const title = Typography('h3', 'template_title', 'Samples').element;
+        title.style.padding = '0 1rem'
+        templateContainer.append(title);
+
         for(let [key, value] of Object.entries(NavContainerStyles)) {
             templateContainer.style[key] = value;
         }
 
-        const firstLink = PageLink('firstCV', 'First CV Template', 'first', 'text');
-        templateContainer.append(firstLink.element);
+        const templates = [
+            { id: 'firstCV', text: 'Modern', href: 'first'},
+            { id: 'harvardCV', text: 'Harvard', href: 'harvard'},
+        ];
 
-        const harvardLink = PageLink('harvardCV', 'Harvard Style CV Template', 'harvard', 'text');
-        templateContainer.append(harvardLink.element);
+        templates.forEach((templ, idx)  => {
+            const link = PageLink(templ.id, templ.text, templ.href, 'text', {width: '100%'});
+            if(idx > 0) {
+                templateContainer.append(Divider().element);
+            }
+            templateContainer.append(link.element);
+        });
+
 
         return templateContainer;
     }
@@ -54,7 +68,7 @@ const Home = () => {
      */
     function builderButton () {
 
-        const button = PageLink('cvbuilder', 'Build Your Own CV', 'builder', 'text').element;
+        const button = PageLink('cvbuilder', 'Build Your Own CV', 'builder', 'block').element;
         for(let [key, value] of Object.entries(BuilderButtonStyles)) {
             button.style[key] = value;
         }
