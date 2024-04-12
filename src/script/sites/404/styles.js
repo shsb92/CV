@@ -6,3 +6,8 @@ export const NotFoundStyles = {
     alignItems: 'center',
     background: 'gray',
 }
+
+export const NotFoundCardStyles = {
+    padding: '2rem',
+    fontSize: '2rem',
+}

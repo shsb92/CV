@@ -1,4 +1,5 @@
 import NotFound from "../sites/404/index.js";
+import Builder from "../sites/Builder/index.js";
 import First from "../sites/First/index.js";
 import Harvard from "../sites/Harvard/index.js";
 import Home from "../sites/Home/index.js";
@@ -27,6 +28,11 @@ export const router = async () => {
             view: Harvard
         },
         {
+            path: '/builder',
+            title: 'CV Builder',
+            view: Builder
+        },
+        {
             path: '/404',
             title: '404 - Not found',
             view: NotFound
@@ -50,8 +56,8 @@ export const router = async () => {
 
     const view = current_route.route.view();
 
-    document.querySelector('#app').innerHTML = null;
-    document.querySelector('#app').appendChild(view.element);
+    document.querySelector('#content').innerHTML = null;
+    document.querySelector('#content').appendChild(view.element);
 
     document.title = current_route.route.title;
 };
